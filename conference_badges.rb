@@ -16,3 +16,8 @@ def assign_rooms(attendees)
     "Hello, #{attendee}! You'll be assigned to room #{index +1}!"
   end
 end
+
+assign_rooms(attendees).each do |badge|
+  puts badge
+end
+end
